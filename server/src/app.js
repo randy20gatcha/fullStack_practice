@@ -17,9 +17,9 @@ app.use(cors()); // possible security issues source
     patch
     delete
 */
-app.get("/status", (req, res) => {
+app.post("/register", (req, res) => {
     res.send({
-        message: "hello Randy."
+        message: `You have registered email: ${req.body.email}`
     });
 });
 
