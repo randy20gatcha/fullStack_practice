@@ -9,12 +9,6 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style scoped>
-.main-page {
-  max-height: 100vh;
-}
-</style>
-
-<!-- <style scoped>
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -76,4 +70,4 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
-</style> -->
+</style>
