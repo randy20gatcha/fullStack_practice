@@ -11,7 +11,7 @@ const app = express();
 app.use(morgan("combined"));
 app.use(bodyParser.json()); // parse any json request sent in
 app.use(cors()); // possible security issues source
-require('./routes')(app)
+require('./routes')(app) // connecting routes
 
 sequelize.sync()
     .then(() => {
