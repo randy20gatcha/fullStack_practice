@@ -19,7 +19,8 @@ fs.readdirSync(__dirname)
         //const model = sequelize.import(path.join(__dirname, file));
         //const model = require(path.join(__dirname, file)(sequelize, Sequelize));
         const result = await sequelize.authenticate();
-        console.log(result);
+        console.log(`This is the result: ${result}`);
+        // console.log(module);
         //db[model.name] = model;
     })
 

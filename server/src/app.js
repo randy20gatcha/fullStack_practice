@@ -16,5 +16,5 @@ require('./routes')(app) // connecting routes
 sequelize.sync()
     .then(() => {
         app.listen(config.port); // environment variable
-        console.log(`Server on port: ${config.port}`)
+        console.log(`Server on port: ${config.port}`);
     })
